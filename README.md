@@ -1,15 +1,20 @@
-# US International Layout (no dead keys) for Windows
+# Programmi e sei italiano? Ecco il layout che fa per te:
 
-By default, Windows includes a layout called United States-International, which allows typing many non-ASCII characters. It is very useful for several Latin-script based languages.
+Layout di tastiera US-International, personalizzato in modo che AltGr+\{vocale\} -> \{vocale accentata\} con gli accenti italiani giusti 😎
+- AltGr + A -> à
+- AltGr + E -> è
+- AltGr + 3 -> é (si ricorda facilmente, nella tastiera il 3 è subito sopra la E)
+- AltGr + I -> ì
+- AltGr + O -> ò
+- AltGr + U -> ù
 
-The layout also designates several keys as "dead keys", particularly the apostrophe (') and double quotes ("). So to enter double quotes, you have to type " followed by space. Some other characters are available by using AltGr as a dead key.
+Per le maiuscole è sufficiente aggiungere Shift alle combinazioni precedenti, ad es. AltGr + Shift + a -> À.
 
-For some use cases, this can be annoying, in particular if you don't need the non-ASCII characters that are entered with the help of those dead keys. With the US-International layout, you can type several languages by only using the AltGr dead key. For example, you can type ä å ö ü ß ø æ by using various AltGr combinations, meaning AltGr is sufficient for German, Danish, Norwegian and Swedish among others.
+# Installazione
+- Installare Microsoft Keyboard Layout Creator ([link](https://www.microsoft.com/en-us/download/details.aspx?id=102134))
+- Aprire Microsoft Keyboard Layout Creator e caricare il file .klc
+- Dal menu, scegliere `Project` -> `Build DLL and Setup Package`. Verrà creato un installer che può essere usato per aggiungere il layout a Windows.
+- Fare logout e login affinché le modifiche abbiano effetto.
 
-This repository contains a layout that is like United States-International but removes the apostrophe ('), double quotes ("), circumflex (^), backtick (``) and tilde (~) as dead keys, while leaving the AltGr dead key combinations intact.
+Grazie a github.com/umanovskis/ che ha creato la versione base senza dead keys (vedere repo forkata), da cui ho cambiato solo pochi caratteri Unicode.
 
-# How to build / install
-
-The layout file can be opened with Microsoft's Keyboard Layout Creator (MKLC) tool, which Microsoft distributes for free. After opening the file in MKLC, choosing Project -> Build DLL and Setup Package will create an installer that can be used to add this layout to Windows.
-
-**Remember** to log off and on again, in order for the changes to take effect.
