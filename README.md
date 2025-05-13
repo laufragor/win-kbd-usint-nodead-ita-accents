@@ -12,7 +12,7 @@ Per le maiuscole è sufficiente aggiungere Shift alle combinazioni precedenti, a
 
 # Installazione
 - Installare Microsoft Keyboard Layout Creator ([link](https://www.microsoft.com/en-us/download/details.aspx?id=102134))
-- Aprire Microsoft Keyboard Layout Creator e caricare il file .klc
+- Aprire Microsoft Keyboard Layout Creator e caricare il file .klc presente in questa repo
 - Dal menu, scegliere `Project` -> `Build DLL and Setup Package`. Verrà creato un installer che può essere usato per aggiungere il layout a Windows.
 - Fare logout e login affinché le modifiche abbiano effetto.
 
